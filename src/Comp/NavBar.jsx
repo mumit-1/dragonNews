@@ -13,7 +13,7 @@ const NavBar = () => {
                 </div>
                 <div className='flex  justify-center items-center gap-2'>
                     <div><img src={user} alt="" /></div>
-                    <div><button className='btn bg-black text-white'>Log in</button></div>
+                    <div><button className='btn bg-black text-white hover:text-black'>Log in</button></div>
                 </div>
             </div>
         </div>
