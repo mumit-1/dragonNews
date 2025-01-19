@@ -5,7 +5,17 @@ import HomeLayout from "../Layout/HomeLayout";
 const Router = createBrowserRouter([
 {
     path:"/",
-    element:<HomeLayout></HomeLayout>
+    element:<HomeLayout></HomeLayout>,
+    children:[
+        {
+            path:"",
+            element:<p>this is category</p>
+        },
+        {
+            path:"/category/:id",
+            element: <h1>this is what it is</h1>
+        }
+    ]
 },
 {
     path:"/auth",

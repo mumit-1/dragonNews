@@ -3,8 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
+/* body{
     font-family: "Smooch Sans", serif;
     font-size: x-large;
     font-weight: 500;
-}
+} */
