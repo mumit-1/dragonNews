@@ -3,6 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+a.active{
+    background-color: darkorange;
+}
+
 /* body{
     font-family: "Smooch Sans", serif;
     font-size: x-large;
