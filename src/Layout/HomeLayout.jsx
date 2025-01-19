@@ -5,6 +5,7 @@ import NavBar from '../Comp/NavBar';
 import LeftSide from '../Comp/LeftSide';
 import MiddleSide from '../Comp/MiddleSide';
 import RightSide from '../Comp/RightSide';
+import { Outlet } from 'react-router-dom';
 
 const HomeLayout = () => {
     return (
@@ -14,7 +15,10 @@ const HomeLayout = () => {
             <NavBar></NavBar>
             <div className='grid grid-cols-12 gap-5'>
                 <aside className='col-span-3'><LeftSide></LeftSide></aside>
-                <section className='col-span-6'></section>
+                <section className='col-span-6'>
+                <p>Middle side</p>
+                    <Outlet></Outlet>
+                    </section>
                 <aside className='col-span-3'><RightSide></RightSide></aside>
             </div>
         </div>
