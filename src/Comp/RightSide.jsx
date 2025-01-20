@@ -3,7 +3,7 @@ import { FaGithub, FaGoogle, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const RightSide = () => {
   return (
-    <div>
+    <div className="sticky top-14">
       <div className="space-y-5">
         <div>
           <p>Login With</p>

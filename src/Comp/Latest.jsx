@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Latest = () => {
     return (
-        <div className="">
+        <div className="sticky top-0 py-2 bg-white">
             <div className="flex gap-2 justify-center items-center bg-base-300 p-2">
                 <p className="bg-red-700 text-white px-1.5">Latest</p>
                 <Marquee speed={80} className="space-x-20">

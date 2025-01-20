@@ -10,7 +10,7 @@ const LeftSide = () => {
         .then(data=>setCategory(data.data.news_category))
     },[]);
     return (
-        <div>
+        <div className="sticky top-14">
             <h1 className="font-bold">All Categories ({category.length}) </h1>
             <div className="p-2">
                 {

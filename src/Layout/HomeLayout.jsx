@@ -11,15 +11,15 @@ const HomeLayout = () => {
     return (
         <div className='w-10/12 mx-auto'>
             <Header></Header>
-            <Latest></Latest>
+            <Latest className="relative"></Latest>
             <NavBar></NavBar>
-            <div className='grid grid-cols-12 gap-5'>
-                <aside className='col-span-3'><LeftSide></LeftSide></aside>
+            <div className='lg:grid md:grid grid-cols-12 gap-5'>
+                <aside className='col-span-3 relative'><LeftSide></LeftSide></aside>
                 <section className='col-span-6'>
                 <p>Middle side</p>
                     <Outlet></Outlet>
                     </section>
-                <aside className='col-span-3'><RightSide></RightSide></aside>
+                <aside className='col-span-3 relative'><RightSide></RightSide></aside>
             </div>
         </div>
     );
